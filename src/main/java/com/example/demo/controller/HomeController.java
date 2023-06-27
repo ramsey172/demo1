@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @GetMapping
     public String home(Model model){
-        model.addAttribute("test","test127");
+        model.addAttribute("test","t2est12e7");
         return "home";
     }
 
